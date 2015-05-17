@@ -8,10 +8,13 @@ body{
     font-family: "宋体";
 }
 a{
+    font-size: 12px;
     cursor: pointer;
 }
 a:link{
     text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
 }
 a:hover {
     color: red;
@@ -19,6 +22,8 @@ a:hover {
 }
 a:visited{
     text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
 }
 /*header*/
 .header{
@@ -156,6 +161,24 @@ a:visited{
     top: 5px;
     left: 661px;
 }
+.secondmenu{
+    width: 1000px;
+    height: 31px;
+    position: absolute;
+    left: 0px;
+    top:33px;
+    /*border: 1px solid #000000;*/
+    color: #ffffff;
+    font-size: 12px;
+    display: none;
+    font-weight: normal;
+}
+.menu ul li:hover .secondmenu{
+    display: block;
+}
+.menu ul li:hover .secondmenu a{
+    color: #ffffff;
+}
 .search_bot{
     width: 49px;
     height: 22px;
@@ -164,4 +187,61 @@ a:visited{
     top: 4px;
     background-image: url("../images/serach_botton.jpg");
     cursor: pointer;
+}
+/*header end*/
+
+/*index footer*/
+.indfooter{
+    width: 1000px;
+    height: 164px;
+    margin-left: 175px;
+    background: url("../images/indfooter_bg.jpg");
+    position: relative;
+}
+.indfooter_text1{
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 25px;
+    position: relative;
+    top:5px;
+    /*position: absolute;*/
+}
+.indfooter_text2{
+    text-align: left;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 25px;
+    left:454px;
+    top: 94px;
+    position: absolute;
+}
+.indfooter_img1{
+    margin-left: 476px;
+    margin-top: 9px;
+}
+.indfooter_img2{
+    position: absolute;
+    left: 133px;
+    top: 76px;
+}
+.indfooter_img3{
+    position: absolute;
+    left: 220px;
+    top: 92px;
+}
+.indfooter_img4{
+    position: absolute;
+    left: 336px;
+    top: 92px;
+}
+/*index footer end*/
+
+/*footer*/
+.footer{
+    width: 1000px;
+    height: 83px;
+    background-image: url("../images/footer_bg.jpg");
+    margin-left: 175px;
 }
