@@ -1040,3 +1040,181 @@
     width: 139px;
     height: 21px;
 }
+/*index*/
+
+
+/*广西概况*/
+.gk{
+    width: 1000px;
+    height: 814px;
+    margin-left: 175px;
+    background: white;
+    position: relative;
+}
+.gk_bg1{
+   width: 723px;
+    height: 283px;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    background: url("../images/gk_bg01.jpg");
+}
+.gk_bg2{
+    width: 255px;
+    height: 286px;
+    background: url("../images/gk_bg02.png");
+    position: absolute;
+    left: 743px;
+    top: 6px;
+}
+.gk_bg2_ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.gk_bg2_ul li{
+    margin-top: 8px;
+}
+.gk_bg3{
+    position: absolute;
+    background: url("../images/gk_bg03.png");
+    width: 359px;
+    height: 287px;
+    left: 6px;
+    top: 295px;
+}
+.gk_bg4{
+    position: absolute;
+    background: url("../images/gk_bg03.png");
+    width: 359px;
+    height: 287px;
+    left: 375px;
+    top: 295px;
+}
+.gk_bg3_ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top:46px;
+    left: 11px;
+}
+.gk_bg3_ul li{
+    width: 330px;
+    height: 23px;
+    overflow: hidden;
+}
+.gk_more{
+    position: absolute;
+    right: 10px;
+    bottom: 26px;
+}
+.gk_bg5{
+    position: absolute;
+    background: url("../images/gk_bg05.png");
+    width: 261px;
+    height: 281px;
+    left: 738px;
+    top: 295px;
+}
+.gk_bg5_ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top:46px;
+    left: 11px;
+}
+.gk_bg5_ul li{
+    width: 225px;
+    height: 23px;
+    overflow: hidden;
+}
+.gk_more2{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+.gk_bg7{
+    position: absolute;
+    background: url("../images/gk_bg07.png");
+    width: 361px;
+    height: 207px;
+    left: 7px;
+    top: 590px;
+}
+.gk_bg7_ul1{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 51px;
+}
+.gk_bg7_ul1 li {
+    width: 57px;
+    height: 63px;
+    line-height: 16px;
+    /*border: 1px solid #000000;*/
+    text-align: center;
+    margin-left: 11px;
+    float: left;
+}
+.gk_bg7_ul2{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 130px;
+}
+.gk_bg7_ul2 li {
+    width: 57px;
+    height: 63px;
+    line-height: 16px;
+    /*border: 1px solid #000000;*/
+    text-align: center;
+    margin-left: 11px;
+    float: left;
+}
+.gk_bg8{
+    position: absolute;
+    background: url("../images/gk_bg08.png");
+    width: 360px;
+    height: 210px;
+    left: 375px;
+    top: 590px;
+}
+.gk_bg8_ul1{
+    padding: 0;
+    margin: 0;
+    /*list-style-image: url("../images/list_img.jpg");*/
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+
+}
+.gk_bg8_ul1 li{
+    float: left;
+    /*margin-left: 10px;*/
+    width: 100px;
+    _width: 116px;
+    height: 29px;
+    _height: 25px;
+}
+
+.gk_bg9{
+    position: absolute;
+    background: url("../images/gk_bg09.png");
+    width: 261px;
+    height: 196px;
+    left: 738px;
+    top: 590px;
+}
+.gk_bg9_img{
+    margin-left:10px;
+    margin-top: 12px;
+}
