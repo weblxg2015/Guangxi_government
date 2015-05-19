@@ -1364,3 +1364,15 @@
     line-height: 30px;
     margin-left: 5px;
 }
+/*互动交流*/
+.hdjl{
+    width: 1000px;
+    height: 333px;
+    margin-left: 175px;
+    background: #ffffff;
+    position: relative;
+}
+.hdjl1{
+    width: 229px;
+    height: 150px;
+}
