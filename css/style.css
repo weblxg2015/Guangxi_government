@@ -39,6 +39,32 @@
     left: 2px;
     top: 2px;
 }
+.scrollimg_num{
+    list-style: none;
+    width: 125px;
+    height: 12px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 203px;
+    top: 224px;
+    color: white;
+}
+.scrollimg_num li{
+    width: 23px;
+    height: 12px;
+    text-align: center;
+    line-height: 12px;
+    float: left;
+    font-size: 10px;
+    border-left: 1px solid #d0d0d0;
+    background: rgba(86, 86, 86, 0.25);
+    font-weight: bold;
+}
+.scrollimg_num li:hover{
+    background: #c20000;
+}
+
 .scrollimg_text{
     height: 20px;
     width: 323px;
@@ -922,4 +948,95 @@
     border: 1px solid #c0c0c0;
     border-bottom: none;
 }
+.ind_touming1{
+    width: 295px;
+    height: 40px;
+    /*border: 1px solid #000000;*/
+    position: absolute;
+    left: 12px;
+    top: 16px;
+}
+.ind_touming2{
+    width: 295px;
+    height: 40px;
+    /*border: 1px solid #000000;*/
+    position: absolute;
+    left: 350px;
+    top: 16px;
+}
+.ind_touming3{
+    width: 295px;
+    height: 40px;
+    /*border: 1px solid #000000;*/
+    position: absolute;
+    left: 680px;
+    top: 16px;
+}
+.ind_touming4{
+    width: 295px;
+    height: 40px;
+    /*border: 1px solid #000000;*/
+    position: absolute;
+    left: 350px;
+    top: 300px;
+}
+.ind_touming5{
+    width: 295px;
+    height: 40px;
+    /*border: 1px solid #000000;*/
+    position: absolute;
+    left: 680px;
+    top: 300px;
+}
 /*<!--index content6 end-->*/
+/*<!--index content7-->*/
+.ind_content7{
+    width: 1000px;
+    height: 77px;
+    margin-left: 175px;
+    background: white;
+}
+.ind_content7_imgul{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 77px;
+    list-style: none;
+}
+.ind_content7_imgul li{
+    width: 186px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 16px;
+    float: left;
+}
+.ind_content7_img{
+    width: 186px;
+    height: 60px;
+}
+/*<!--index content7 end-->*/
+
+.ind_content8{
+    width: 1000px;
+    height: 44px;
+    margin-left: 175px;
+    background: white;
+}
+.ind_content8_ul{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 44px;
+    list-style: none;
+}
+.ind_content8_ul li{
+    width: 139px;
+    height: 21px;
+    margin:0 12px;
+    margin-top: 15px;
+    float: left;
+}
+.ind_content8_chose{
+    width: 139px;
+    height: 21px;
+}
