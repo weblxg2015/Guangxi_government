@@ -1218,3 +1218,149 @@
     margin-left:10px;
     margin-top: 12px;
 }
+
+/*广西旅游*/
+.lv{
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    margin-left: 175px;
+    background: #ffffff;
+}
+.lvimg{
+    position: absolute;
+    width: 980px;
+    height: 297px;
+    left:5px;
+    top:6px;
+    border: 1px solid #e6e6e6;
+    background: #f8f8f8;
+}
+.lv_img1{
+    height: 276px;
+    width: 761px;
+    position: absolute;
+    left: 10px;
+    top:10px;
+}
+.lv_img1_text{
+    width: 761px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    background: rgba(162, 162, 162, 0.51);
+    line-height: 33px;
+}
+.lv_img1_text1{
+    padding: 0 0 0 12px;
+}
+.lvimg_1{
+    width: 761px;
+    height: 276px;
+}
+.lvimg_ul{
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid #000000;*/
+    left: 856px;
+    top: 7px;
+}
+.lvimg_ul li{
+    width: 109px;
+    height: 68px;
+    /*border: 1px solid #000000;*/
+}
+.lvimg_ul li:hover{
+    background: url("../images/lvyouimg_bg.png");
+}
+.lvimg_ulimg{
+    width: 98px;
+    height: 56px;
+    margin-left: 11px;
+    margin-top: 7px;
+    opacity: 0.6;
+}
+.lvimg_ul li:hover .lvimg_ulimg{
+    opacity: 1;
+}
+
+.lvyou2{
+    width: 1000px;
+    height: 385px;
+    margin-left: 175px;
+    background: #ffffff;
+    background-image: url("../images/lvyou2_bg.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.lvyou2_more1{
+    position: absolute;
+    left: 458px;
+    top:80px;
+}
+.lvyou2_more2{
+    position: absolute;
+    left: 950px;
+    top:80px;
+}
+.lvyou2_content1{
+    width: 475px;
+    height: 232px;
+    background: #ecffe9;
+    position: absolute;
+    border: 1px solid #bbcdb7;
+    left: 19px;
+    top: 110px;
+}
+.lvyou2_content2{
+    width: 475px;
+    height: 232px;
+    background: #ecffe9;
+    position: absolute;
+    border: 1px solid #bbcdb7;
+    left: 504px;
+    top: 110px;
+}
+.lvyou2_img{
+    width: 158px;
+    height: 106px;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 6px;
+    top: 7px;
+}
+.lvyou2_text{
+    width: 300px;
+    height: 80px;
+    overflow: hidden;
+    position: absolute;
+    left: 175px;
+    top: 5px;
+    line-height: 20px;
+}
+.lvyou2_text a{
+    color: #ff0000;
+}
+.lvyou2ul{
+    margin: 0;
+    padding: 0;
+    width: 475px;
+    height: 106px;
+    border-top:1px dotted #c0c0c0;
+    position: absolute;
+    left: 0;
+    top: 132px;
+    list-style: none;
+}
+.lvyou2ul li{
+    float: left;
+    width: 150px;
+    height: 32px;
+    line-height: 30px;
+    margin-left: 5px;
+}
