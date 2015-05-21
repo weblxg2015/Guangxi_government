@@ -1812,7 +1812,7 @@ width: 368px;
 .tzgx_left{
     width: 704px;
     height: 1088px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
     position: relative;
     left: 10px;
     top: 19px;
@@ -2028,7 +2028,7 @@ width: 368px;
 .tzgx_right{
     width: 268px;
     height: 1086px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
     position: relative;
     left: 20px;
     top: 19px;
