@@ -29,6 +29,12 @@ a:visited{
 .header_a{
     font-size: 15px;
 }
+.header_a:visited{
+    color: #ffffff;
+}
+.header_a:hover{
+    color: #ffffff;
+}
 /*header*/
 .header{
     height:260px;
