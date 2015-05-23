@@ -1777,7 +1777,6 @@
 .gk_bg7{
     position: absolute;
     /*background: url("../images/gk_bg07.png");*/
-    background-color:greenyellow ;
     width: 360px;
     height: 206px;
     left: 7px;
@@ -1790,8 +1789,8 @@
 }
 .gk_bg7_bottom1{
     /*background: url("../images/gk_bg3top.png");*/
-    width: 258px;
-    height: 237px;
+    width: 360px;
+    height: 163px;
 }
 .gk_bg7_left{
     background: url("../images/gk_bg7left.png");
@@ -1811,7 +1810,7 @@
     float: left;
 }
 .gk_bg7_mid{
-    width:372px;
+    width:352px;
     height: 156px;
 }
 .gk_bg7_right{
@@ -1858,17 +1857,54 @@
 .gk_bg8{
     position: absolute;
     /*background: url("../images/gk_bg08.png");*/
-    background-color:greenyellow ;
-    width: 360px;
-    height: 210px;
+    /*background-color:greenyellow ;*/
+    width: 359px;
+    height: 208px;
     left: 375px;
     top: 590px;
+}
+.gk_bg8_top{
+    background: url("../images/gk_bg8top.png");
+   width: 359px;
+    height: 42px;
+}
+.gk_bg8_bottom1{
+    /*background: url("../images/gk_bg3top.png");*/
+    width: 359px;
+    height: 165px;
+}
+.gk_bg8_left{
+    background: url("../images/gk_bg8left.png");
+    width: 4px;
+    height: 165px;
+    float: left;
+}
+
+.gk_bg8_bottom{
+    background: url("../images/gk_bg8bottom.png");
+    width: 351px;
+    height: 7px;
+}
+.gk_bg8_mid1{
+    width: 351px;
+    height: 165px;
+    float: left;
+}
+.gk_bg8_mid{
+    width:351px;
+    height: 158px;
+}
+.gk_bg8_right{
+    background: url("../images/gk_bg8right.png");
+  width: 4px;
+    height: 165px;
+    float: left;
 }
 .gk_bg8_ul1{
     padding: 0;
     margin: 0;
     /*list-style-image: url("../images/list_img.jpg");*/
-    background-color:greenyellow ;
+    /*background-color:greenyellow ;*/
     list-style: none;
     position: absolute;
     top: 50px;
@@ -1888,14 +1924,30 @@
     position: absolute;
     /*background: url("../images/gk_bg09.png");*/
     background-color:greenyellow ;
-    width: 261px;
-    height: 196px;
+    width: 259px;
+    height: 194px;
     left: 738px;
     top: 590px;
 }
+.gk_bg9_top{
+    background: url("../images/gk_bg9top.png");
+    width: 259px;
+    height: 12px;
+}
+.gk_bg9_mid{
+    background: #dedede;
+    width: 259px;
+    height: 170px;
+}
+.gk_bg9_bottom{
+    background: url("../images/gk_bg9bottom.png");
+    width: 259px;
+    height: 12px;
+    _height:6px;
+}
 .gk_bg9_img{
     margin-left:10px;
-    margin-top: 12px;
+    /*margin-top: 12px;*/
 }
 
 /*广西旅游*/
