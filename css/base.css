@@ -39,7 +39,6 @@ a:visited{
 .header{
     height:260px;
     width: 1000px;
-    /*border: 1px solid #000000;*/
     margin-left:175px;
 }
 .top{
@@ -177,7 +176,6 @@ a:visited{
     position: absolute;
     left: 0px;
     top:33px;
-    /*border: 1px solid #000000;*/
     color: #ffffff;
     font-size: 12px;
     display: none;
@@ -216,7 +214,6 @@ a:visited{
     line-height: 25px;
     position: relative;
     top:5px;
-    /*position: absolute;*/
 }
 .indfooter_text2{
     text-align: left;

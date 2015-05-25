@@ -61,12 +61,10 @@ a:visited{
     width: 26px;
     *width: 24px;
     height: 26px;
-    /*margin-top: 1px;*/
 }
 .wszw_footer{
     width: 1012px;
     height: 257px;
-    /*border: 1px solid #000000;*/
     background: white;
     margin-left: 175px;
 }
@@ -103,7 +101,6 @@ a:visited{
     height: 70px;
     text-align: center;
     line-height: 24px;
-    /*border-top: 1px solid #d3820b;*/
 }
 
 .wszw_header{
@@ -112,7 +109,6 @@ a:visited{
     background: url("../images/wszwtopbg.jpg");
     margin-left:42px;
     text-align: center;
-    /*border-bottom: 1px solid #000000;*/
 }
 .wszw_titletext{
     position: relative;
@@ -194,7 +190,6 @@ padding: 0 16px;
     position: absolute;
     top:50px;
     left: 740px;
-    /*border: 1px solid #000000;*/
 }
 .main_box1_ul li{
     width: 208px;
@@ -211,7 +206,6 @@ padding: 0 16px;
 .main_box1_title{
     color: #570000;
     font-size: 16px;
-    /*line-height: 30px;*/
     position: absolute;
     left: 740px;
     top: 28px;
@@ -238,7 +232,6 @@ padding: 0 16px;
 .main_box2{
     height: 332px;
     width: 1006px;
-    /*border: 1px solid #000000;*/
     margin-left: 4px;
     margin-top: 10px;
     position: relative;
@@ -247,13 +240,11 @@ padding: 0 16px;
     width: 258px;
     height: 66px;
     background: url("../images/wszw_img1.jpg");
-    /*border: 1px solid #df7313;*/
 }
 .main_box2_img2{
     width: 258px;
     height: 242px;
     position: relative;
-    /*background: url("../images/wszw_img2.png");*/
     top:10px;
 }
 .main_box2_bscxtext{
@@ -323,7 +314,6 @@ padding: 0 16px;
 .listname{
     width: 425px;
     height: 22px;
-    /*border: 1px solid #000000;*/
     background: url("../images/wszw_img4.jpg") 0px 5px no-repeat;
     margin-top: 0px;
     margin-left: 10px;
@@ -376,7 +366,6 @@ padding: 0 16px;
 .rmbsul li{
     width: 245px;
     height: 28px;
-    /*border: 1px solid #000000;*/
     overflow: hidden;
     line-height: 30px;
 }
@@ -405,7 +394,6 @@ padding: 0 16px;
     text-align: center;
     line-height: 30px;
     margin-left:10px;
-    /*color: #d3820b;*/
 }
 .main_box4ul1 li:hover{
     border-left:1px solid #fde087;
@@ -458,7 +446,6 @@ padding: 0 16px;
     text-align: center;
     line-height: 28px;
     overflow: hidden;
-    /*border-right: 1px solid white;*/
 }
 .main_box3ul1li2{
     width: 162px;
@@ -467,7 +454,6 @@ padding: 0 16px;
     text-align: center;
     line-height: 28px;
     overflow: hidden;
-    /*border-right: 1px solid white;*/
 }
 .main_box3ul1li3{
     width: 174px;
@@ -476,7 +462,6 @@ padding: 0 16px;
     text-align: center;
     line-height: 28px;
     overflow: hidden;
-    /*border-right: 1px solid white;*/
 }
 .main_box3ul1li4{
     width: 202px;
@@ -485,7 +470,6 @@ padding: 0 16px;
     text-align: center;
     line-height: 28px;
     overflow: hidden;
-    /*border-right: 1px solid white;*/
 }
 .main_box3ul1li5{
     width: 100px;
@@ -494,13 +478,11 @@ padding: 0 16px;
     text-align: center;
     line-height: 28px;
     overflow: hidden;
-    /*border-right: 1px solid white;*/
 }
 .main_box3ul2{
     margin: 0;
     padding: 0;
     list-style: none;
-    /*background: #fefcb9;*/
     width: 977px;
     height: 28px;
     border-bottom: 1px dotted #c0c0c0;
