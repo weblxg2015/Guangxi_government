@@ -27,6 +27,12 @@
     width: 327px;
     height: 266px;
     border: 1px solid #cccccc;
+    position: absolute;
+}
+.ind_content1_scrollimg2{
+    width: 327px;
+    height: 266px;
+    border: 1px solid #cccccc;
     position: relative;
 }
 .scrollimg{
@@ -45,7 +51,7 @@
     padding: 0;
     position: absolute;
     left: 203px;
-    top: 224px;
+    top: 285px;
     color: white;
 }
 .scrollimg_num li{
@@ -60,7 +66,7 @@
     font-weight: bold;
 }
 .scrollimg_num li:hover{
-    background: #c20000;
+    /*background: #c20000;*/
 }
 
 .scrollimg_text{
@@ -1375,7 +1381,7 @@
     position: absolute;
     line-height: 25px;
     left: 362px;
-    top: 95px;
+    top: 65px;
     width: 286px;
     overflow: hidden;
 }
@@ -2495,7 +2501,7 @@ font-size: 14px;
     position: relative;
     background-color: #fef2e4;
     border: 1px solid #f9b572;
-    margin-top: 5px;
+    /*margin-top: 280px;*/
 }
 .zw_xwfbtitle{
     position: relative;
