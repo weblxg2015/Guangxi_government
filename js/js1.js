@@ -35,7 +35,6 @@ var icp=document.getElementById("ind_content1_wrap");
 var sn=document.getElementById("scrollimg_num");
 var snarr=sn.children;
 var icparr=icp.children;
-//alert(icparr[0].nodeName)
 for(var m=0;m<snarr.length;m++){
     snarr[m].aa=m;
     snarr[m].onmouseover=function(){
@@ -48,5 +47,4 @@ for(var m=0;m<snarr.length;m++){
             }
         }
     }
-
 }

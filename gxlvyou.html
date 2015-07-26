@@ -58,7 +58,7 @@
     <!--header end-->
 <div class="lv">
   <div class="lvimg">
-      <div>
+      <div id="lvimg_warp">
     <div class="lv_img1">
       <div class="lv_img1_text"><span class="lv_img1_text1">北海银滩</span></div>
       <img src="images/lv_img1.jpg" class="lvimg_1">
@@ -75,14 +75,15 @@
               <div class="lv_img1_text"><span class="lv_img1_text1">贺州玉石林奇景</span></div>
               <img src="images/lv_img4_1.jpg.jpg" class="lvimg_1">
           </div>
-          </div>
-      <ul class="lvimg_ul">
+      </div>
+  </div>
+      <ul class="lvimg_ul" id="lvimg_ul">
           <li><img src="images/lv_img1.jpg" class="lvimg_ulimg"></li>
           <li><img src="images/lv_img2.jpg" class="lvimg_ulimg"></li>
           <li><img src="images/lv_img3.jpg" class="lvimg_ulimg"></li>
           <li><img src="images/lv_img4.jpg" class="lvimg_ulimg"></li>
-          </ul>
-  </div>
+      </ul>
+
 </div>
 <div class="lvyou2">
     <div class="lvyou2_more1"><a>更多>></a></div>
@@ -132,6 +133,27 @@
     </div>
 </head>
 <body>
-
 </body>
 </html>
+<script>
+    var lw=document.getElementById("lvimg_warp");
+    var lu=document.getElementById("lvimg_ul");
+     var lwarr=lw.children;//div
+     var luarr=lu.children;//li
+    for(var w=0;w<luarr.length;w++){
+        luarr[w].aa=w;
+        luarr[w].onmouseover=function() {
+            this.children[0].style.opacity="1";
+            this.style.background="url('images/lvyouimg_bg.png')";
+            lwarr[this.aa].style.display="block";
+        for(var q=0;q<luarr.length;q++){
+            if(q!=this.aa){
+                luarr[q].children[0].style.opacity="0.6";
+                luarr[q].style.background="";
+                lwarr[q].style.display="none"
+            }
+          }
+        }
+    }
+
+</script>

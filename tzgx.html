@@ -64,9 +64,29 @@
        <!--<投资动态>-->
      <div class="tzgx_dt">
          <div class="tzgx_dtimg">
-             <img src="images/dtscrollimg.jpg" class="dtscrollimg">
-             <div class="dtscrollimg_text">彭清华在来宾调研</div>
-             <ul class="dtscrollimg_num">
+             <div id="tzgx_dtimg">
+                 <div >
+                     <img src="images/dtscrollimg.jpg" class="dtscrollimg">
+                     <div class="dtscrollimg_text">彭清华在来宾调研</div>
+                 </div>
+                 <div class="dtscrollimg_wrap">
+                     <img src="images/dtscrollimg2.jpg" class="dtscrollimg">
+                     <div class="dtscrollimg_text">彭清华会见柬埔寨副首相贺南洪</div>
+                 </div>
+                 <div class="dtscrollimg_wrap">
+                     <img src="images/dtscrollimg3.jpg" class="dtscrollimg">
+                     <div class="dtscrollimg_text">广西首届工业博览会隆重开幕 </div>
+                 </div>
+                 <div class="dtscrollimg_wrap">
+                     <img src="images/dtscrollimg4.png" class="dtscrollimg">
+                     <div class="dtscrollimg_text">全区经济暨城镇化工作会议在南宁举行 </div>
+                 </div>
+                 <div class="dtscrollimg_wrap">
+                     <img src="images/dtscrollimg5.jpg" class="dtscrollimg">
+                     <div class="dtscrollimg_text">彭清华在梧州调研 </div>
+                 </div>
+                 </div>
+             <ul class="dtscrollimg_num" id="dtscrollimg_num">
                  <li>1</li>
                  <li>2</li>
                  <li>3</li>
@@ -224,3 +244,20 @@
 </div>
 </body>
 </html>
+<script>
+            var td1= document.getElementById("tzgx_dtimg").children;
+            var dn1= document.getElementById("dtscrollimg_num").children;
+            dn1[0].style.background="#c20000";
+            for(var y=0;y<dn1.length;y++){
+                dn1[y].aa=y;
+                dn1[y].onmouseover=function(){
+                    this.style.background="#c20000";
+                    td1[this.aa].style.display="block";
+                    for(var j=0;j<dn1.length;j++){
+                    if(j!=this.aa){
+                       td1[j].style.display="none";
+                        dn1[j].style.background="rgba(86, 86, 86, 0.25)";
+                    }
+                }
+            }}
+</script>
