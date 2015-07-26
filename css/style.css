@@ -94,7 +94,8 @@
 .ind_content1_menu li{
     width: 79px;
     height: 43px;
-    background-image: url("../images/ind_content1_menubg.jpg");
+    background-image: url('../images/ind_content1_menubg.jpg');
+    /*background:blue ;*/
     float: left;
     color: #ffffff;
     line-height: 43px;
@@ -103,7 +104,7 @@
     text-align: center;
 }
 .ind_content1_menu li:hover{
-    background-image: url("../images/ind_content1_menubgho.jpg");
+    /*background-image: url("../images/ind_content1_menubgho.jpg");*/
 }
 .ind_content1_secondmenu{
     margin: 0;
@@ -115,6 +116,7 @@
     width: 400px;
     height: 286px;
     _top: 43px;
+    display: block;
 }
 .ind_content1_secondmenu li{
     width: 400px;
@@ -125,11 +127,110 @@
     text-align: left;
     position: relative;
 }
+
+.ind_content1_secondmenu2{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 33px;
+    left: 3px;
+    width: 400px;
+    height: 286px;
+    _top: 43px;
+    display: none;
+}
+.ind_content1_secondmenu2 li{
+    width: 400px;
+    background-image: none;
+    font-size: 12px;
+    font-weight: normal;
+    height: 25px;
+    text-align: left;
+    position: relative;
+
+}
+.ind_content1_secondmenu3{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 33px;
+    left: 3px;
+    width: 400px;
+    height: 286px;
+    _top: 43px;
+    display: none;
+}
+.ind_content1_secondmenu3 li{
+    width: 400px;
+    background-image: none;
+    font-size: 12px;
+    font-weight: normal;
+    height: 25px;
+    text-align: left;
+    position: relative;
+}
+.ind_content1_secondmenu4{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 33px;
+    left: 3px;
+    width: 400px;
+    height: 286px;
+    _top: 43px;
+    display: none;
+}
+.ind_content1_secondmenu4 li{
+    width: 400px;
+    background-image: none;
+    font-size: 12px;
+    font-weight: normal;
+    height: 25px;
+    text-align: left;
+    position: relative;
+}
+.ind_content1_secondmenu5{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 33px;
+    left: 3px;
+    width: 400px;
+    height: 286px;
+    _top: 43px;
+    display: none;
+}
+.ind_content1_secondmenu5 li{
+    width: 400px;
+    background-image: none;
+    font-size: 12px;
+    font-weight: normal;
+    height: 25px;
+    text-align: left;
+    position: relative;
+}
+
 .ind_content1_secondmenutext1{
     font-size:15px;
     color: #000000;
 }
 .ind_content1_secondmenu li:hover{
+    background-image: none;
+}
+.ind_content1_secondmenu2 li:hover{
+    background-image: none;
+}
+.ind_content1_secondmenu3 li:hover{
+    background-image: none;
+}
+.ind_content1_secondmenu4 li:hover{
+    background-image: none;
+}
+.ind_content1_secondmenu5 li:hover{
     background-image: none;
 }
 .ind_content1data{
