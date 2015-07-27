@@ -23,7 +23,7 @@
         <button class="top_botton">登录</button>
     </div>
     <div class="header_img"></div>
-    <div class="menu">
+    <div class="menu" id="menu">
         <ul>
             <li>
                 <a href="index.html"><span class="header_a">首&nbsp;页</span></a>
@@ -49,8 +49,9 @@
             </li>
             <li>
                 <a href="wszw.html"><span class="header_a">办事服务</span></a>
+                <div class="secondmenu">&nbsp;</div></li>
             </li>
-            <li><a href="hdjl.html"><span class="header_a">互动交流</span></a></li>
+            <li><a href="hdjl.html"><span class="header_a">互动交流</span></a><div class="secondmenu">&nbsp;</div></li>
         </ul>
         <input type="text" class="menu_serach">
         <div class="search_bot"></div>
@@ -134,3 +135,20 @@
 </div>
 </body>
 </html>
+<script>
+    var menu=document.getElementById("menu");
+    var liarr2=menu.children[0].children;
+    for(var j=0;j<liarr2.length;j++) {
+        liarr2[j].aa = j;
+        liarr2[j].onmouseover = function () {
+            this.style.backgroundPosition= "0 0";
+            this.children[1].style.display="block";
+            for (var k = 0; k < liarr2.length; k++) {
+                if (k != this.aa) {
+                    liarr2[k].style.backgroundPosition= "0 33px";
+                    liarr2[k].children[1].style.display="none";
+                }
+            }
+        }
+    }
+</script>

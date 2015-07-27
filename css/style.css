@@ -64,6 +64,7 @@
     border-left: 1px solid #d0d0d0;
     background: rgba(86, 86, 86, 0.25);
     font-weight: bold;
+    cursor: pointer;
 }
 .scrollimg_num li:hover{
     /*background: #c20000;*/

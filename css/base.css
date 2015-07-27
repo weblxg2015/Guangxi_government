@@ -156,11 +156,12 @@ a:visited{
     line-height: 33px;
     text-align: center;
     font-weight: bold;
-    background: url("../images/menu_bg.png")  0 33px;
+    background-image: url("../images/menu_bg.png");
+    background-position: 0 33px;
     cursor: pointer;
 }
 .menu ul li:hover{
-    background: url("../images/menu_bg.png");
+    /*background-position: 0 0px;*/
 }
 .menu_serach{
     width: 227px;
